@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.no_border {
+  border: none;
+}
+
+.card_border {
+  border-radius: 25px;
+}
+
+.main_page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.main_page .section_left {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.main_page .section_right {
+  width: 70%;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.section_right_buttons {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.section_right_buttons:hover {
+  color: blue;
+}
